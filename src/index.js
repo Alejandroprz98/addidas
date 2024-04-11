@@ -11,6 +11,13 @@ root.render(
   </React.StrictMode>
 );
 
+const btnCart = document.querySelector('.container-icon')
+const containerCartProducts = document.querySelector('.container-cart-products')
+
+btnCart.addEventListener('click', () => {
+    containerCartProducts.classList.toggle('hidden-cart')
+})
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
