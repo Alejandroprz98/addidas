@@ -5,10 +5,82 @@
   --clr-color1:#ffffff;
   --clr-color2:#c1121f;
 }
-.App {
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Doppio One", sans-serif;
 }
-.App {
-  background-color: rgb(0, 0, 0);
-  color: white;
+
+a{
+  text-decoration: none;
 }
+
+body{
+  background-color: var(--clr-color1);
+}
+
+header{
+  background-color: var(--clr-color1);
+  height: 80px;
+  width: 8rem;
+  height: 3rem;
+}
+
+.logo{
+  max-width: 80px;
+  max-height: 80px;
+  margin-left: 1rem;
+}
+
+.pagina{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.producto{
+  background: linear-gradient(#dee2e6, #000000);
+  border-radius: 20px;
+  border: 2px solid var(--clr-orange);
+  margin: 2rem;
+  color: var(--clr-black);
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.producto-precio{
+  margin: 10px 0 20px;
+  font-weight: 200;
+}
+
+
+.producto-compra{
+  background-color: var(--clr-black);
+  margin: 8rem;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto-compra a{
+  color: var(--clr-grey);
+}
+
+.producto-compra a:hover{
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: var(--clr-white);
+  color: var(--clr-orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
