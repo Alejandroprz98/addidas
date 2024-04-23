@@ -55,7 +55,6 @@ header{
   font-weight: 200;
 }
 
-
 .producto-compra{
   background-color: var(--clr-black);
   margin: 8rem;
@@ -83,4 +82,5 @@ header{
   justify-content: center;
   align-items: center;
 }
+
 
